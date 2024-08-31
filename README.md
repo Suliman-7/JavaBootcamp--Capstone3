@@ -21,7 +21,7 @@ Captain extra end points :
 - Apply Delivery Group
 - Show Highest Rate
 - Detailed Report for All Captain
-- Suggest Similar Path Request ( Abdulrahman make the check statement and I create the returned list )
+- Suggest Similar Path Request
 - 
 
 
@@ -42,7 +42,6 @@ Student extra end points :
 - join Daily Trip
 - join Delivery Group
 - change Facility
-- suggest Similar Path Trips ( with abdulrahman )
 - assign Facility To Student
 
 
