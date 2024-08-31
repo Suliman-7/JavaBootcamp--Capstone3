@@ -122,7 +122,7 @@ public class StudentController {
     }
 
 
-    // Suliman and Abdulrahman
+    // Abdulrahman
     @GetMapping("/suggestsimilarpath/{studentid}")
     public ResponseEntity suggestSimilarPathTrips(@PathVariable int studentid){
         return ResponseEntity.status(200).body(studentService.suggestSimilarPathTrips(studentid));
