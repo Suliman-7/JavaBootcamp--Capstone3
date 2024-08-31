@@ -88,7 +88,7 @@ public class CaptainController {
         return ResponseEntity.status(200).body(captainService.findCaptainByVehicle(vehicle));
     }
 
-    // Abdulrahman and Suliman
+    // Suliman
     @GetMapping("/suggestsimilarpath/{captainid}")
     public ResponseEntity suggestSimilarPathRequests(@PathVariable int captainid){
         return ResponseEntity.status(200).body(captainService.suggestSimilarPathRequests(captainid));
